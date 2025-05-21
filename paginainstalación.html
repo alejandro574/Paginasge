@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instalación de Dolibarr ERP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/624bf31245.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/paginainstalacion.css">
+
+</head>
+
+<body>
+
+    <h1 class="titulo">Instalación de Dolibarr ERP con XAMPP</h1>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Página Principal</a></li>
+            <li><a href="#pasosprevios">Pasos Previos</a></li>
+            <li><a href="#requisitos">Requisitos</a></li>
+            <li><a href="#Configuracion">Configuración de servidor web y base de datos</a></li>
+            <li><a href="#final">Panel Dolibbar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="seccion2" id="pasosprevios">
+            <h2>1. Pasos previos</h2>
+            <div class="fila">
+                <div class="texto">
+                    <p>Primero instalamos XAMPP haciendo clic en descargar.</p>
+                    <p>Una vez instalado, abrimos el <strong>Panel de Control de XAMPP</strong> y activamos los módulos
+                        <strong>Apache</strong>, para que se active un servidor web local, y <strong>MySQL</strong> para
+                        iniciar el servidor de base de datos , dandole en Start.
+                    </p>
+                    <p>Después, accedemos a <strong>phpMyAdmin</strong> desde <a href="http://localhost/phpmyadmin"
+                            target="_blank">http://localhost/phpmyadmin</a> y creamos una nueva base de datos llamada
+                        <strong>dolibarr</strong> sin importar ninguna tabla ya que Dolibarr se encargará de crearlas.
+                    </p>
+                    <p>Luego descomprimimos Dolibarr y accedemos a <strong>http://localhost/dolibarr/htdocs</strong>
+                        para iniciar la instalación.</p>
+                    <img src="./images/dolibarr.png" alt="s" width="430px" height="310px">
+                </div>
+                <div class="columna-imagenes">
+                    <img src="./images/xamp.png" alt=" XAMPP" class="imagen">
+                    <img src="./images/panelxamp.png" alt=" XAMPP" class="imagen">
+                    <img src="./images/xamp4.png " alt=" base de datos" class="imagen">
+                    <img src="./images/dolibarr1.png" alt=" Dolibarr" class="imagen">
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion" id="requisitos">
+            <h2>2. Revisión de requisitos <img src="./images/8888205.png" alt="" width="40px" height="30px"></h2>
+            <div class="texto2">
+                <p>Dolibarr revisa que nuestro sistema cumpla los requisitos mínimos de PHP. Si todo es correcto,
+                    se pulsa
+                    en <strong>Empezar</strong>.</p>
+                <p>Es necesario incluir la carpeta Dolibarr dentro del directorio htdocs de XAMPP.</p>
+            </div>
+
+            <div class="imagenes-doble">
+                <img src="./images/dolibarr2.png" alt="Revisión de requisitos" class="imagen">
+                <img src="./images/dolibarr6.png" alt="XAMPP" class="imagen">
+            </div>
+
+
+        </div>
+
+        <div class="seccion4" id="Configuracion">
+            <div class="texto7">
+                <h2>3. Configuración del servidor web y base de datos</h2>
+                <p>Se indican las rutas de instalación y datos de la base de datos:</p>
+                <ul>
+                    <li><strong>Directorio web:</strong> C:/xampp/htdocs/dolibarr/htdocs</li>
+                    <li><strong>Documentos:</strong> C:/xampp/htdocs/dolibarr/documents</li>
+                    <li><strong>Servidor BD:</strong> localhost</li>
+                    <li><strong>Usuario:</strong> root </li>
+                    <li><strong>Base de datos:</strong> dolibarr</li>
+                </ul>
+            </div>
+            <div class="imagen8">
+                <img src="./images/dolibarr3.png" alt=" XAMPP" class="imagen">
+            </div>
+        </div>
+
+        <div class="seccion5" id="final">
+    <div class="texto5">
+        <h2>4. Finalización de instalación</h2>
+        <p>Creo el usuario administrador para acceder al sistema. Ya se ha instalado Dolibarr.</p>
+        <p>Ahora se pueden añadir los módulos que se necesiten.</p>
+    </div>
+
+    <div class="imagen5">
+        <img src="./images/dolibarr4.png" alt="Dolibarr instalado correctamente" class="imagen">
+    </div>
+
+    <div class="imagen-extra">
+        <img src="./images/Captura de pantalla 2025-05-20 181025.png" alt="Configuración final" class="imagen11">
+    </div>
+</div>
+    </main>
+    <footer>
+        <p> <b>&copy; &nbsp; Alejandro Martín Fernández &nbsp; | &nbsp;Todos los derechos reservados</b></p>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-x"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

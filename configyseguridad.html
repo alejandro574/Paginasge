@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/624bf31245.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/configyseguridad.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Configuración y Metodos de seguridad</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Página principal</a></li>
+        <li><a href="#admin-config">Administración y configuración</a></li>
+        <li><a href="#acceso-seguro">Acceso seguro</a></li>
+        <li><a href="#usuario">Creación de Usuario</a></li>
+        <li><a href="#usuarios">Creación de Usuario</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="admin-config">
+        <h2>Administración y Configuración</h2>
+        <p>
+        <p> El apartado de Configuración permite personalizar y adaptar el sistema a las necesidades de cada
+          empresa. Entre las opciones más relevantes se encuentran:</p>
+        <ul>
+          <li>Empresa/Organización: datos fiscales, logotipo, dirección, ...</li>
+          <li>Módulos: activación y gestión de funcionalidades como facturación, CRM, stock, ...</li>
+          <li>Entorno: ajustes generales del sistema, idioma, zona horaria y preferencias.</li>
+          <li>Menús: selección del tipo de menú, temas y su organización.</li>
+          <li>Traducción: idiomas disponibles en la interfaz y en los documentos generados.</li>
+          <li>Valores, filtros y ordenación por defecto: para personalizar cómo se muestran los listados que se generan.
+          </li>
+          <li>Paneles: configuración de los elementos que aparecen en los diferentes paneles del sistema.</li>
+          <li>Alertas: gestión de notificaciones internas y por correo.</li>
+          <li>Seguridad: Configuración de contraseñas,captcha,acceso externo e interno...</li>
+          <li>Límites y precisión: definición de límites numéricos, redondeos ...</li>
+          <li>PDF: configuración de plantillas para facturas, presupuestos ...</li>
+          <li>E-Mails: Emails salinetes, firmas automáticas y plantillas de correo.</li>
+          <li>SMS: configuración de proveedores y envío de mensajes desde el sistema.</li>
+          <li>Diccionarios: edición de listas como países, unidades, formas de pago, etc.</li>
+          <li>Otras configuraciones:</li>
+        </ul>
+
+        </p>
+        <h3>
+          Captura sobre la configuración basica de los datos de la empresa
+        </h3>
+        <img src="./images/conf1.png" alt="Configuración inicial del SGE - captura 1" />
+        <h3>Vídeo sobre los diferentes modulos que se pueden instalar</h3>
+        <video src="./videos/video21.mp4" muted controls></video>
+
+      </section>
+
+      <section id="acceso-seguro">
+        <h2>Acceso seguro y Metodos de seguridad </h2>
+        <p>
+          El acceso seguro sirve para proteger la información sensible dentro del SGE. El sistema tiene una
+          autenticación fuerte y una encriptación para garantizar la integridad de los datos.
+        </p>
+        <h3>
+          Los metodos de seguridad aplicados en el vídeo son:
+        </h3>
+        <ul>
+          <li> Se han activado los permisos avanzados para definir lo que puede hacer cada usuario.
+          </li>
+          <li>Se ha habilitado el uso de CAPTCHA para proteger el acceso ante intentos automatizados.
+          </li>
+          <li>Las contraseñas se generan automáticamente con 12 caracteres mínimo, y se
+            ha deshabilitado la opción de recuperarla.
+          </li>
+          <li>Se ha bloqueado la subida de archivos para evitar posibles ataques desde archivos maliciosos.
+          </li>
+          <li>Se ha activado el uso de proxy.
+          </li>
+          <li>Por último , se ha activado el registro de todos los eventos de seguridad, lo cual permite auditar accesos,
+            fallos de login, cambios de usuario...
+          </li>
+        </ul>
+       <video src="./videos/video3.mp4" muted controls></video>
+      </section>
+
+      <section id="crear-usuario">
+        <h2>Creación de Usuario y sus privilegios</h2>
+        <h3>El siguiente video muestra cómo crear un usuario nuevo en el sistema y darle unos permisos especificos.</h3>
+        <video src="./videos/video5.mp4" muted controls></video>
+        <h3>El siguiente vídeo muestra como se aplican los permisos dados al nuevo usuario</h3>
+        <video src="./videos/video6.mp4" muted controls></video>
+      </section>
+
+      <section id="crear-grupo">
+        <h2>Creación de Grupo</h2>
+        <p>A continuación, el proceso para crear un grupo dentro del SGE.</p>
+        <img src="captura-grupo.jpg" alt="Creación de grupo" />
+        <video controls>
+          <source src="video-grupo.mp4" type="video/mp4" />
+          
+        </video>
+      </section>
+    </main>
+    <footer>
+      <p> <b>&copy; &nbsp; Alejandro Martín Fernández &nbsp; | &nbsp;Todos los derechos reservados</b></p>
+      <div class="redes">
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fa-brands fa-x"></i>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

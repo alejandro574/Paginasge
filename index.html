@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistemas de Gestión Empresarial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/624bf31245.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/paginageneral.css" />
+</head>
+
+<body>
+    <header>
+        <div><img src="./images/logo.png" class="logo" alt=""></div>
+        <nav>
+            <div class="boton-menu">
+                <button onclick="mostrarMenu()">☰ Mostrar menú</button>
+            </div>
+            <ul class="menu">
+                <li><a href="">VER EN GITHUB</a></li>
+                <li><a href="./paginacontipos.html">Tipos y características</a></li>
+                <li><a href="./paginainstalación.html">Instalación</a></li>
+                <li><a href="./configyseguridad.html">Configuración y Seguridad</a></li>
+                <li><a href="informes.html">Informes y Exportación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="principal">
+            <h1>Sistemas de Gestión Empresarial</h1>
+            <p>Un sistema de gestión es una herramienta que permite controlar, planificar, organizar y automatizar las
+                tareas de una empresa.</p>
+        </section>
+        <section class="fotos">
+            <div class="fotos2">
+                <a href="./paginacontipos.html" class="fotos3">
+                    <img src="./images/tiposprincipal.jpg" alt="foto" class="foto4" />
+                    <h3>Tipos y características</h3>
+                </a>
+                <a href="./paginainstalación.html" class="fotos3">
+                    <img src="./images/dolibarr.png" alt="foto" class="foto4" />
+                    <h3>Instalación</h3>
+                </a>
+                <a href="./configyseguridad.html" class="fotos3">
+                    <img src="./images/configuracion.jpg" alt="foto" class="foto4" />
+                    <h3>Administración y configuración</h3>
+                </a>
+                <a href="./configyseguridad.html#acceso-seguro" class="fotos3">
+                    <img src="./images/seguridad.jpg" alt="foto" class="foto4" />
+                    <h3>Mecanismos de acceso seguro a la información. Roles y privilegios</h3>
+                </a>
+                <a href="informes.html" class="fotos3">
+                    <img src="./images/informes.jpg" alt="foto" class="foto4" />
+                    <h3>Elaboración de informes <br> Exportación de información </h3>
+                </a>
+
+            </div>
+        </section>
+        <div class="imagen4">
+            <img src="./images/1684342337684.png" alt="s" >
+            <img src="./images/¿Qué-es-un-sistema-de-gestión-y-para-qué-sirve (1).jpg" alt="a">
+        </div>
+    </main>
+
+    <footer>
+        <p> <b>&copy; &nbsp; Alejandro Martín Fernández &nbsp; | &nbsp;Todos los derechos reservados</b></p>
+        <div class="redes">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-x"></i>
+            </a>
+        </div>
+    </footer>
+    <script>
+        alert("Bienvenido a la página principal de Sistemas de gestion empresarial")
+        function mostrarMenu() {
+            let menu = document.querySelector(".menu");
+            menu.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
